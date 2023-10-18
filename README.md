@@ -1,6 +1,7 @@
 # Simulated Driver Behavior Analysis
 
 ## 1. Introduction
+
 ### 1.1 Background 
 The dataset under consideration is aimed at classifying different driver behaviors and extracting driver patterns. The data was collected using the Carla Simulator platform, and it includes information from a 6-axis virtual IMU (Inertial Measurement Unit) sensor installed on a "Seat Leon" vehicle. The collected data encompasses the driving behaviors of seven distinct drivers on a predefined route with multiple turns.
 
@@ -16,11 +17,13 @@ The data was collected using a customized data collector environment within the 
 The dataset includes information from a 6-axis virtual IMU sensor, which provides measurements from a 3-axis accelerometer and a 3-axis gyroscope. These sensors capture crucial information about the vehicle's motion and orientation during the simulated drives.
 
 ## 3. Dataset Description
+
 ### 3.1 Features
 The dataset contains the following features:
  - <b>Driver Names:</b> The "class" column, which includes the names of the seven different drivers: [mehdi, apo, gonca, onder, berk, selin, hurcan].
  - <b>IMU Data:</b> The dataset includes measurements from the 6-axis IMU sensor, including accelerometer and gyroscope data, which can be further broken down into specific data points, such as acceleration along the x, y, and z axes, and angular velocities around the x, y, and z axes.
  - <b>Path Information:</b> The dataset records the path taken by the vehicle, including details about turns and other maneuvers.
+
 ### 3.2 Data Samples
 
 ## 4. Applications
@@ -32,6 +35,6 @@ The dataset can be used for various applications, including:
 - Enhancing driver training programs by tailoring instruction to individual behavior patterns.
 - Studying and improving road safety through the identification of risky driving behaviors.
 
-### 5. Conclusions
+## 5. Conclusions
 
 In conclusion, this dataset provides valuable insights into driver behavior and offers opportunities for classification and pattern extraction. The data, collected in a controlled simulation environment, can be used for a variety of applications aimed at improving road safety and advancing autonomous vehicle technology. Further analysis and modeling are required to fully unlock the potential of this dataset.
